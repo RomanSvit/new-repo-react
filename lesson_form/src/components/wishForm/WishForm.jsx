@@ -24,13 +24,12 @@ class WishForm extends Component {
     });
   };
   chooseSelect = param => {
-    this.setState(
-      {prority:param.value}
-    )
+    this.setState({priority:param.value})
   };
 
   render() {
     const { wish } = this.state;
+    
     // const { onChooseSelect } = this.props;
     return (
       <>

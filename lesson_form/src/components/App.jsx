@@ -30,7 +30,6 @@ class App extends Component {
       wishes: prev.wishes.filter(elem => elem.id !== id)
     }));
   };
-  chooseSelect = param => {};
 
   render() {
     const { isVisible, wishes } = this.state;
